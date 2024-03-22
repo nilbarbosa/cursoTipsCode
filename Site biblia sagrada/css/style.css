@@ -1,0 +1,27 @@
+
+/*---------------seção de tags------------------*/
+h1{
+
+    color: blue;
+}
+
+/*---------------seção de classes------------------*/
+
+.biblia-sagrada{
+    background-color: aqua;
+    width: 13%;
+}
+
+.sinal-da-cruz{
+    background-color: rgb(4, 64, 64);
+}
+
+/*---------------seção de IDs------------------*/
+
+#cabeçalho{
+    color: springgreen;
+}
+
+#cabeçalho:hover{
+    color: rgb(0, 0, 0);
+}
