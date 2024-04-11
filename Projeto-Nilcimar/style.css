@@ -1,34 +1,31 @@
 /*------------seção Tags----------------*/
 body{
     margin: 0px;
+    text-align: center;
 }
 
 h1{
     margin-top: 0px;
+    width: 10%;
+    margin: 0px auto 0px auto;
 }
 
 /*------------seção Classes----------------*/
 
 .top-container{
     background-color: #053B50;
-    height: 200px;
-    width: 200px;
-    border:15px solid black;
+    position: relative;
+    padding-top: 100px;
+   
+}  
+
+.cerebro-tec-cima{
+    position: absolute;
+    right: 20%;
+    top: 50px;
 }
 
-.middle-container{
-    background-color: red;
-    height: 200px;
-    width: 200px;
-    border:15px solid black;
-    margin-left: 230px;
+.cerebro-tec-baixo{
+    right: 10%;
+    bottom: 70%;
 }
-
-.bottom-container{
-    background-color: blueviolet;
-    height: 200px;
-    width: 200px; 
-    border:15px solid black;
-    margin-left: 460px;
-}    
-
