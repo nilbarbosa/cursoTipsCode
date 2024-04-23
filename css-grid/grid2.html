@@ -8,17 +8,38 @@
 <style>
     html, body{
         margin: 20px;
-        height: calc(100% - 40%);
+        height: calc(100% - 40px);
+        background-color: blanchedalmond;
     }
 
     div{
         display: flex;
         align-items: center;
         justify-content: center;
-        font-size: 40px;
+        font-size: 30px;
         border: solid 5px darkcyan;
         background: #fff;
     }
+
+    body{
+        display: grid;
+        grid-template-columns:
+            [inicio] 1fr
+            [metade-1 meio-1] 1fr
+            [metade-2 meio-2] 1fr [fim];
+        grid-template-rows: repeat(3, 1fr);
+        column-gap: 20px; /*dar espaços entre as colunas*/
+        row-gap: 20px;  /*dar espaços entre as linhas*/
+        gap: 80px 30px; /*dar os epaços nos dois de uma vez*/
+    }
+    .box1{
+        grid-column-start: meio-1;
+        grid-column-end: fim;
+        grid-column: meio-1 / fim; /*início e fim juntos*/
+        grid-row: 1 / span 2; /*ultilizando recurso nas linhas*/
+        grid-area: 1 / meio-1 / span 3 / fim;
+    }
+
 </style>
 <body>
     <div class="box1">01</div>
