@@ -1,3 +1,11 @@
+h1{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+    font-weight: 900;
+    color: #fff;
+}
+
 #title{
     background-color: #051d35;
 }
