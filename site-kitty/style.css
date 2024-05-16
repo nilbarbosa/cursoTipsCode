@@ -5,6 +5,20 @@ h1{
     font-weight: 900;
 }
 
+h2{
+    font-family: "Poetsen One", sans-serif;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+h3{
+    font-family: "Poetsen One", sans-serif;
+}
+
+p{
+    color: #8f8f8f;
+}
+
 #title{
     background-color: #051d35;
     color: #fff;
@@ -47,7 +61,7 @@ body{
     width: 60%;
 }
 
-/*Feacture box*/
+/*Feacture box section*/
 
 #feactures{
     padding: 7% 15%;
@@ -56,4 +70,41 @@ body{
 .feature-box{
     text-align: center;
     padding: 5%;
+}
+
+.icon{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+
+.icon:hover{
+    color: #ff4c68;
+}
+
+/*Testimonials section*/
+
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #ef8173;
+    color: #fff;
+}
+
+.testimonials-image{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+
+/*Press section*/
+
+#press{
+    background-color: #ef8173;
+    text-align: center;
+    padding-bottom: 3%;
+}
+
+.prass-logo{
+    width: 5%;
+    margin: 20px 20px 50px;
 }
