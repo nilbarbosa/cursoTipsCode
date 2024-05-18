@@ -139,3 +139,36 @@ body{
         position: static;
     }
 }
+
+/*cta section*/
+
+#cta{
+    background-color: #051d35;
+    height: 25rem;
+    padding: 10%;
+    text-align: center;
+}
+
+.cta-txt{
+    
+    color: #fff;
+    padding-bottom: 5%;
+}
+
+/*footer section*/
+
+#footer{
+    background-color: #fff;
+    height: 16rem;
+    text-align: center;
+}
+
+.footer-links{
+    padding: 8% 0.5% 2%;
+    font-size: 15px;
+    color: rgba(25, 25, 25, 0.786);
+}
+
+p{
+    font-family: "Ubuntu", sans-serif;
+}
