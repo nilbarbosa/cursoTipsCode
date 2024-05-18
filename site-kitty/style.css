@@ -131,3 +131,11 @@ body{
     padding: 3% 2%;
     text-align: center;
 }
+
+/*site responsivo*/
+
+@media (max-width: 1028px) {
+    title-image{
+        position: static;
+    }
+}
