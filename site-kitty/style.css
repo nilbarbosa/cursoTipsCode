@@ -66,6 +66,12 @@ body{
     top: 60%;
 }
 
+/*buttons*/
+
+.download-buttons{
+    margin: 5% 3% 5% 0;
+}
+
 /*Feacture box section*/
 
 #feactures{
@@ -125,6 +131,7 @@ body{
 
 #pricing{
     padding: 100px;
+    text-align: center;
 }
 
 .pricing-column{
@@ -152,7 +159,7 @@ body{
 .cta-txt{
     
     color: #fff;
-    padding-bottom: 5%;
+    padding-bottom: 1%;
 }
 
 /*footer section*/
